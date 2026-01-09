@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Weather from './Weather';
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="outerContainer">
+          <div className="container">
+            <div className="appContainerHeader">React Weather App</div>
+            <div className="appContainerContent">
+            <Weather defaultCity="Cardiff"/>
+            </div>
+              </div>
+              <div className="ForecastContainer">
+              </div>
+          <footer>
+            This project was coded by Rhian Jenkins and is open-sourced on 
+            <a href= "https://github.com/Rhitree/react-final-weather-app" target="_blank" rel="noreferrer"> Github </a>
+            and hosted on 
+            <a href="https://app.netlify.com/projects/silver-eclair-98aa41/overview" target="_blank" rel="noreferrer"> Netlify </a>
+          </footer>
+          </div>
     </div>
   );
 }
-
-export default App;
