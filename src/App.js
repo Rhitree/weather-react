@@ -16,12 +16,6 @@ export default function App() {
             <Weather defaultCity="Cardiff"/>
             </div>
               </div>
-              <div className="forecastContainer">
-                 <div className="appContainerHeader">
-                          <span className="dot1"></span>
-                          <span className="dot2"></span>
-                          <span className="dot3"></span>React Weather App</div>
-              </div>
           <footer>
             This project was coded by Rhian Jenkins and is open-sourced on 
             <a href= "https://github.com/Rhitree/react-final-weather-app" target="_blank" rel="noreferrer"> Github </a>
