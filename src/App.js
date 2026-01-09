@@ -8,12 +8,19 @@ export default function App() {
     <div className="App">
     <div className="outerContainer">
           <div className="container">
-            <div className="appContainerHeader">React Weather App</div>
+            <div className="appContainerHeader">
+                          <span className="dot1"></span>
+                          <span className="dot2"></span>
+                          <span className="dot3"></span>React Weather App</div>
             <div className="appContainerContent">
             <Weather defaultCity="Cardiff"/>
             </div>
               </div>
-              <div className="ForecastContainer">
+              <div className="forecastContainer">
+                 <div className="appContainerHeader">
+                          <span className="dot1"></span>
+                          <span className="dot2"></span>
+                          <span className="dot3"></span>React Weather App</div>
               </div>
           <footer>
             This project was coded by Rhian Jenkins and is open-sourced on 
