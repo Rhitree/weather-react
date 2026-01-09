@@ -16,7 +16,6 @@
     text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
 
-
 .WeatherForecast-temperature-min {
     opacity: 0.6;
     margin-left: 5px;
