@@ -23,7 +23,6 @@ export default function Weather(props) {
     });
   }
 
-
     function search() {
     const apiKey ="b3a37c1584b0oatf80a196c74f3071cb";
     let apiUrl =`https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
