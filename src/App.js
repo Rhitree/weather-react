@@ -23,7 +23,7 @@ export default function App() {
             This project was coded by Rhian Jenkins and is open-sourced on 
             <a href= "https://github.com/Rhitree/weather-react/tree/master/src" target="_blank" rel="noreferrer"> Github </a>
             and hosted on 
-            <a href="https://radiant-gumdrop-179789.netlify.app/" target="_blank" rel="noreferrer"> Netlify </a>
+            <a href="https://app.netlify.com/projects/radiant-gumdrop-179789/deploys/" target="_blank" rel="noreferrer"> Netlify </a>
           </footer>
           </div>
     </div>
