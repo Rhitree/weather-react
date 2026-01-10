@@ -21,40 +21,44 @@ hr {
 }
 
 .Weather h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
     font-family:'Bungee', Arial, sans-serif;
     color: #4cc5e4;
     font-size: 30px;
     letter-spacing: 1px;
-    padding: 10px;
     text-align: center;
+    max-width: 74%;
     outline: #191919;
     text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
 
 
 .float-right {
-  margin-top: 5px;
-  padding-top: 10px;
+  max-height: 70px;
+  margin-left: -50px;
+  margin-bottom: -20px;
 }
 
 form {
-  display: block;
+  margin-left: 30px;
+  font-size: 17px;
 }
 
 .form-control {
   box-shadow: 3px 3px 1px #191919;
   border: solid #191919;
-  border-radius: 0%;
   display: inline-block;
   width: 80%;
   margin-right: 5px;
   background-color: #fefffd;
-  font-size: 11px;
+  border-radius: 0%;
 }
 
 .button {
+  padding: 4px;
   background-color: #BAD7FF;
-  font-size: 16px;
   border: solid #191919;
   color: #191919;
   box-shadow: 3px 3px 1px #191919;
@@ -68,6 +72,7 @@ form {
   border: solid #191919;
   box-shadow: 3px 3px 1px #191919;
   max-width: 600px;
+  margin-top: 20px;
 }
 
 .weatherContainerHeader {
@@ -86,22 +91,25 @@ form {
   text-align: center;
   font-style: italic;
   display: block;
-  padding: 20px;
+  padding: 0px;
   margin: auto;
-  
 }
 
 .dateInfo {
-  font-size: 20px;
+  font-size: 25px;
   background-color: #fefffd;
   border: solid #191919;
   border-radius: 30px;
   width: 350px;
   font-style: normal;
+  box-shadow: 3px 3px 1px #191919;
 }
 
 .conditionInfo {
-  font-size: 30px;
+  font-size: 40px;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 10px;
   margin-bottom: -15px;
   font-family:'Seaweed Script', Arial, sans-serif;
   font-weight: bold;
@@ -110,50 +118,59 @@ form {
   text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
 
-.starburst2 {
+.starburst-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 110px;
   background-color: black;
   padding-left: 5px;
   padding-top: 5px;
-  margin: auto;
-  margin-right: 15px;
   width: 100px;
-  height: 100px; /* adjust to control the size */
+  height: 100px;
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
   }
 
-.starburst {
+.starburst {  
+  font-style: normal;
   background-color: #ffd318;
   font-style: normal;
-  padding-top: 12px;
   width: 90px;
-  height: 90px; /* adjust to control the size */
+  height: 90px;
   aspect-ratio: 1;
   clip-path: polygon(100% 50%,84.77% 59.32%,93.3% 75%,75.46% 75.46%,75% 93.3%,59.32% 84.77%,50% 100%,40.68% 84.77%,25% 93.3%,24.54% 75.46%,6.7% 75%,15.23% 59.32%,0% 50%,15.23% 40.68%,6.7% 25%,24.54% 24.54%,25% 6.7%,40.68% 15.23%,50% 0%,59.32% 15.23%,75% 6.7%,75.46% 24.54%,93.3% 25%,84.77% 40.68%);
 }
 
 .temperature {
-  margin-bottom: -5px;
-  font-size: 25px;
+  padding-top: 7px;
+  margin-bottom: -19px;
+  font-size: 35px;
   text-shadow: 1px 1px 0 #FFA0D6, 1px -1px 0 #FFA0D6, -1px 1px 0 #FFA0D6, -1px -1px 0 #FFA0D6, 1px 0px 0 #FFA0D6, 0px 1px 0 #FFA0D6, -1px 0px 0 #FFA0D6, 0px -1px 0 #FFA0D6;
 
 }
 
 .unit {
   margin-top: 0px;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: #191919;
   text-shadow: 1px 1px 0 #FEFFFD, 1px -1px 0 #FEFFFD, -1px 1px 0 #FEFFFD, -1px -1px 0 #FEFFFD, 1px 0px 0 #FEFFFD, 0px 1px 0 #FEFFFD, -1px 0px 0 #FEFFFD, 0px -1px 0 #FEFFFD;
-
 }
+
 
 .condition {
-  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
-  margin-right: 35px;
-  margin-top: 17px;
+  margin-right: 60px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+  background: #AB8DE4;
+  border: solid 3px #191919;
   text-shadow: 2px 2px 0 #FEFFFD, 2px -2px 0 #FEFFFD, -2px 2px 0 #FEFFFD, -2px -2px 0 #FEFFFD, 2px 0px 0 #FEFFFD, 0px 2px 0 #FEFFFD, -2px 0px 0 #FEFFFD, 0px -2px 0 #FEFFFD;
 }
+
 
 a:link {
   color: #FFA0D6;
