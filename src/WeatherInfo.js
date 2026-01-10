@@ -9,9 +9,11 @@ export default function WeatherInfo(props) {
         <div className="weatherInfo">              
                             <div className="weatherContainer">
                                 <div className="weatherContainerHeader">
+                                    <span className="dots-2">
                                         <span className="dot1"></span>
                                         <span className="dot2"></span>
-                                        <span className="dot3"></span>
+                                        <span className="dot3-2"></span>
+                                    </span>
                                         Current Weather
                                     </div>
                                     <div className="row">

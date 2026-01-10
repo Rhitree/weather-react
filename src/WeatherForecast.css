@@ -25,6 +25,7 @@
 }
 
 .WeatherForecast-temperatures {
+    margin-top: -7%;
     color: #ffd318;
     text-shadow: 2px 2px 0 #191919, 2px -2px 0 #191919, -2px 2px 0 #191919, -2px -2px 0 #191919, 2px 0px 0 #191919, 0px 2px 0 #191919, -2px 0px 0 #191919, 0px -2px 0 #191919;
 }
